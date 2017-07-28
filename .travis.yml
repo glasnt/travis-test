@@ -14,7 +14,7 @@ deploy:
   draft: true
   name: $TRAVIS_TAG
   tag: $TRAVIS_TAG
-  body: This is the $TRAVIS_TAG release.<br><br>This is **multiple**    `line`.<br>```<br>pip install thingy<br>```<br>### Heading Size 3<br>\`test`\
+  body: This is the $TRAVIS_TAG release.<br><br>This is **multiple** line.<br>```<br>pip install thingy<br>```<br>### Heading Size 3<br>
   on: 
     repo: glasnt/travis-test
     tags: true
