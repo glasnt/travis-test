@@ -14,9 +14,11 @@ deploy:
   draft: true
   name: $TRAVIS_TAG
   tag: $TRAVIS_TAG
-  body: >
+  body: |
       This is the $TRAVIS_TAG release of this application
       More lines here
+      <br> and even more
+      <br> the end
   on: 
     repo: glasnt/travis-test
     tags: true
