@@ -1,0 +1,18 @@
+language: python
+python:
+  - "3.5"
+
+deploy:
+  provider: releases
+  file: "README.md"
+  skip_cleanup: true
+  overwrite: true
+  draft: true
+  name: $TRAVIS_TAG
+  tag: $TRAVIS_TAG
+  body: >
+      This is the $TRAVIS_TAG release of this application
+      More lines here
+  on: 
+    repo: glasnt/travis-test
+    tags: true
