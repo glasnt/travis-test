@@ -14,11 +14,7 @@ deploy:
   draft: true
   name: $TRAVIS_TAG
   tag: $TRAVIS_TAG
-  body: |
-      This is the $TRAVIS_TAG release of this application
-      More lines here
-      <br> and even more
-      <br> the end
+  body: This is the $TRAVIS_TAG release.<br><br>This is multiple line.<br>```<br>pip install thingy<br>```<br><br>
   on: 
     repo: glasnt/travis-test
     tags: true
