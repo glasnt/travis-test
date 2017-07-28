@@ -6,7 +6,7 @@ import sys
 setup(
     name='travis-test',
     version='0.0.1',
-    description='This is a description'
+    description='This is a description',
     url='https://github.com/glasnt/travis-test',
     author='Katie McLaughlin',
     author_email='katie@glasnt.com',
